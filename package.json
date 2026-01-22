@@ -1,0 +1,14 @@
+{
+    "name": "wedding-invite",
+    "version": "1.0.0",
+    "description": "Wedding invitation site",
+    "main": "worker.js",
+    "scripts": {
+        "dev": "wrangler dev",
+        "deploy": "wrangler deploy"
+    },
+    "devDependencies": {
+        "wrangler": "^3.22.0"
+    },
+    "private": true
+}

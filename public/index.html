@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعوة زفاف</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading/Opening Screen -->
+    <div id="opening-screen" class="screen active">
+        <div class="card-container">
+            <div class="card-wrapper">
+                <img src="3.jpeg" alt="اضغط للفتح" id="open-btn" class="cover-image">
+                <div class="pulse-ring"></div>
+            </div>
+            <p class="instruction-text"></p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <!-- Main Content -->
+    <main id="main-content" class="screen hidden">
+
+        <!-- Images Section (Transparent - No White Background) -->
+        <div class="content-container transparent" style="margin-bottom: 20px;">
+            <div class="gallery">
+                <div class="photo-frame fade-in delay-1">
+                    <img src="1.jpeg" alt="العريس والعروس">
+                </div>
+
+                <!-- Verse Text -->
+                <div class="verse-text fade-in delay-2">
+                    "لِذلِكَ يَتْرُكُ الرَّجُلُ أَبَاهُ وَأُمَّهُ وَيَلْتَصِقُ بِامْرَأَتِهِ وَيَكُونَانِ جَسَدًا
+                    وَاحِدًا" <br> (سفر التكوين 2: 24)
+                </div>
+
+                <div class="photo-frame fade-in delay-2">
+                    <img src="2.jpeg" alt="تفاصيل الزفاف">
+                </div>
+            </div>
+        </div>
+
+        <!-- Locations Section (White Box) -->
+        <div class="content-container">
+            <!-- Location 1 -->
+            <div class="details-section fade-in delay-3">
+                <div class="location-box">
+                    <h2 class="section-title en-text">📍Church Wedding Ceremony</h2>
+                    <p class="hotel-name">كنيسة السيدة العذراء مريم والشهيد العظيم مارمينا مدينه نصر</p>
+                    <div style="height: 20px; border-top: 1px dashed rgba(0,0,0,0.1); margin: 10px 0;"></div>
+
+
+                    <a href="https://www.google.com/maps/search/?api=1&query=Four+Seasons+Hotel+Cairo+at+The+First+Residence"
+                        target="_blank" class="map-btn">
+                        <span class="icon">🗺️</span>
+                        افتح الموقع على الخريطة
+                    </a>
+                </div>
+            </div>
+
+            <!-- Spacing -->
+            <div style="height: 20px; border-top: 1px dashed rgba(0,0,0,0.1); margin: 10px 0;"></div>
+
+            <!-- Location 2 (Duplicate) -->
+            <div class="details-section fade-in delay-3">
+                <div class="location-box">
+                    <h2 class="section-title en-text">📍Reception Party</h2>
+                    <p class="hotel-name">الفندق دار المدفعيه ( قاعه الملكه )</p>
+                    <div style="height: 20px; border-top: 1px dashed rgba(0,0,0,0.1); margin: 10px 0;"></div>
+
+
+                    <a href="https://www.google.com/maps/search/?api=1&query=Four+Seasons+Hotel+Cairo+at+The+First+Residence"
+                        target="_blank" class="map-btn">
+                        <span class="icon">🗺️</span>
+                        افتح الموقع على الخريطة
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="fade-in delay-4">
+                <p class="footer-msg">بكل الحب، ننتظركم لتشاركونا أجمل يوم في حياتنا 💖</p>
+            </footer>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
